@@ -1,29 +1,17 @@
 
-//public class HelloWorld {
-//	
-//	public static void displayString(String x){
-//		System.out.println(x);
-//	}
-//
-//	public static void main(String[] args) {
-//		System.out.println("Hello World From JAVA");
-//		displayString("hemant is here");
-//		System.out.println(10+20);
-//	
-//		
-//	}
-//
-//}
 
-public class HelloWorld {
-	public static void displayString(String x) {
-		System.out.println(x);
-	}
-	public static void main(String args[]) {
-		displayString("Hemant is in Germany");
-		System.out.println("He is going to be a millionaire");
-	}
-}
+  public class HelloWorld {
+  
+  public static void displayString(String x) { System.out.println(x); }
+  
+  public static void main(String[] args) {
+  System.out.println("Hello World From JAVA"); displayString("hemant is here");
+  System.out.println(10 + 20);
+  
+  }
+  
+  }
+ 
 
 //Learnings:
 //1. A java program must have a class and the main method. Without it we can not run a program
@@ -32,3 +20,5 @@ public class HelloWorld {
 // your java classes inside that package.
 //4. A package is just like a folder. You can have multiple packages inside src
 //5. The shortcut for the System.out.println statement is Syso +CTRL+SPACE BAR
+//6. For single line comment- CTRL+/
+//7. For multiline comment CTRL+SHIFT+/ (But for uncommenting the multiline comments, you have to use CTRL+SHIFT+\)
