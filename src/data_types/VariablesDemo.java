@@ -41,6 +41,8 @@ public class VariablesDemo {
 		// Non primitive data types--> Not predefined in java except Strings. Others are created by developers
 		// String, Arrays, Classes, Interfaces are non primitive data types
 		// A primitive type always has a value, while non-primitive types can be null.
+		// A non primitive data types can contain multiple values e.g. String, Arrays
+		// All non primitive data types starts with an Upper case letters
 		
 		// The char data type holds the single char. We have to use the single quote for its value
 		char grade='B';
