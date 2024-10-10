@@ -20,6 +20,14 @@ public class TernaryOperators {
 		int person_age = 20;
 		String res = (person_age > 10) ? "Eligible for vote" : "Not eligible for vote"; // here the data type of res is String as the result will be in the string format
 		System.out.println(res);
+		
+		// swipe the numbers
+		int c=10, d=20;
+		d=d-c;
+		c=d+10;
+		System.out.println("c is " +c);
+		System.out.println("d is "+d);
+		
 	}
 
 }
