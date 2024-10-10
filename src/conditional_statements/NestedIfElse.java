@@ -8,6 +8,10 @@ public class NestedIfElse {
 			if (2 == 1) {
 				System.out.println("ABC");
 			}
+//			else {
+//				System.out.println("PQR");
+//			}
+			
 		} else {
 			System.out.println("XYZ");
 		}
@@ -19,3 +23,4 @@ public class NestedIfElse {
 // here 2==1, the condition is false, so it will not print anything
 // the code will not go to the else block because it is the else block of first if statement.
 // The execution will enterer the else block only when the first if condition becomes false.
+// To get the output you can add another else statement just below the second if block
