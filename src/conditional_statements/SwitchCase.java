@@ -8,7 +8,7 @@ public class SwitchCase {
 	public static void main(String[] args) {
 		int dayoftheweek = 5;
 		switch (dayoftheweek) {
-		case 1: // this means the varible value is 1. i.e. dayoftheweek=1
+		case 1: // this means the variable value is 1. i.e. dayoftheweek=1
 			System.out.println("Sunday");
 			break;
 		case 2:

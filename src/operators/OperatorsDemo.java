@@ -61,11 +61,11 @@ public class OperatorsDemo {
 		boolean b1 = 20 > 10;
 		boolean b2 = 20 < 10;
 
-		System.out.println("value of b1 is " + b1);
-		System.out.println("value of b2 is " + b2);
+		System.out.println("value of b1 is " + b1); //true
+		System.out.println("value of b2 is " + b2); //false
 		
-		System.out.println(b1 && b2); // operating on the results of the above statements
-		System.out.println(b1 || b2);
+		System.out.println(b1 && b2); //false. operating on the results of the above statements
+		System.out.println(b1 || b2); //true
 
 
 
