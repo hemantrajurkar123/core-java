@@ -4,18 +4,17 @@ package looping;
 public class WhileLoopDemo {
 
 	public static void main(String[] args) {
-		int i=1; // initialization
-		while(i<=10) // condition
+		int i = 1; // initialization
+		while (i <= 10) // condition
 		{
-			System.out.println(i); 
-			i++; //increment
-			
+			System.out.println(i);
+			i++; // increment
+
 		}
 
 	}
 
 }
-
 
 // There are 3 looping statements: while, do while and for
 // They are used to do a certain task until the condition is satisfied. 

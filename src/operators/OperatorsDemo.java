@@ -61,14 +61,20 @@ public class OperatorsDemo {
 		boolean b1 = 20 > 10;
 		boolean b2 = 20 < 10;
 
-		System.out.println("value of b1 is " + b1); //true
-		System.out.println("value of b2 is " + b2); //false
-		
-		System.out.println(b1 && b2); //false. operating on the results of the above statements
-		System.out.println(b1 || b2); //true
+		System.out.println("value of b1 is " + b1); // true
+		System.out.println("value of b2 is " + b2); // false
 
-
+		System.out.println(b1 && b2); // false. operating on the results of the above statements
+		System.out.println(b1 || b2); // true
 
 	}
 
 }
+
+// There are 6 types of operators
+// Arithmatic: + - * / %
+// Relational: > >= < <= == !=
+// Increment decrement: ++ --
+// Logical operators: && || !
+// Asssignment: = += -= /= %=
+// Consitional or Ternary: ?
