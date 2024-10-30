@@ -25,5 +25,6 @@ public class ObjectTypeArray {
 
 // Arrays store the single type of data. i.e it is a collection of similar type of data.
 // If we want to store different types of data in an array, we have to use object type of array.
+// Object type of array can hold any type of data
 // It is not recommended method to store multiple types of data in an array. For that we use array list.
 
