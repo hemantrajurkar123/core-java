@@ -14,4 +14,4 @@ public class MethodOverloadingMain {
 
 }
 
-// Based on the arguments provided, the method call will located the method which matches the number,type and order of the parameters defined in the method
+// Based on the arguments provided, the method call will locate the method which matches the number,type and order of the parameters defined in the method
