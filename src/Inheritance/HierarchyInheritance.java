@@ -6,14 +6,14 @@ class Parent {
 	}
 }
 
-class Child1 extends Parent { // inherited properties of Parent class. Now has show() and display() methods
+class Child1 extends Parent { // inherited properties of Parent class. Child1 class Now has show() and display() methods
 	void display(int b) {
 		System.out.println(b);
 	}
 
 }
 
-class Child2 extends Parent { // inherited properties of Parent class. Now has show() and print() methods
+class Child2 extends Parent { // inherited properties of Parent class. Child2 class Now has show() and print() methods
 	void print(int c) {
 		System.out.println(c);
 	}

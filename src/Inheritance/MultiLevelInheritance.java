@@ -9,7 +9,7 @@ class C {
 }
 
 // Child class
-class D extends A {
+class D extends C {
 	int b;
 
 	void show() {
@@ -18,7 +18,7 @@ class D extends A {
 
 }
 
-class E extends B {
+class E extends D {
 	int c;
 
 	void print() {
