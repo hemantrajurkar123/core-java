@@ -34,6 +34,7 @@ class Dog extends Animal {
 	
 	Dog(){ // Dog constructor
 //		System.out.println("This is the dog");
+		// When we will create the object of this constructor, automatically the constructor of parent class will get invoked
 	}
 	
 	Dog(String name){ //constructor overloading
