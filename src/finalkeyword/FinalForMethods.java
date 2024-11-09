@@ -6,12 +6,13 @@ final class Test2{  // we can not extend this class into the child class as we m
 	}
 }
 
-class Test3 extends Test2{
-	void m1() { //method overriding. We can not override the method m1 as it is marked as final in the parent class
-		System.out.println("Method m1 from extended class Test3");
-	}
-}
+//class Test3 extends Test2{
+//	void m1() { //method overriding. We can not override the method m1 as it is marked as final in the parent class
+//		System.out.println("Method m1 from extended class Test3");
+//	}
+//}
 
+//commented the above code because it is showing an error because it can not overridden.
 public class FinalForMethods {
 
 	public static void main(String[] args) {
