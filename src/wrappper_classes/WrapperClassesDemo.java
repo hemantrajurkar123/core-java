@@ -33,6 +33,8 @@ public class WrapperClassesDemo {
 		System.out.println(cobj);
 		System.out.println(bobj);
 		
+		// Object type variables will have predefined methods available to use with the . notation. ex: iobj.equals()
+		
 		// Converting the Object type of data into the primitive data is called as unboxing
 		
 		int intval=iobj;  // converted the object value to the primitive int value
@@ -49,5 +51,10 @@ public class WrapperClassesDemo {
 
 }
 
-// Wrapper classes are special type of classes that are used to convert primitive type data into the object type of data
+// Wrapper classes are special type of classes that are used to convert primitive type data into the object type of data and object type data to primitive type of data
 // Java collections can not hold the primitive type of data. Collections can store only objects
+
+//When to use primitive variables and when to use object type variables?
+//1. If you are using the java collections, use object type variables
+//2. If you want to use the methods of objects, use object type variables
+//3. Else use primitive type of variables
