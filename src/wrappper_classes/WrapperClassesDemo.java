@@ -10,21 +10,17 @@ public class WrapperClassesDemo {
 		char c = 'C';
 		boolean b = true;
 
-		// Now to convert these primitive types into the object types, we can use
-		// wrapper classes
+		// Now to convert these primitive types into the object types, we can use wrapper classes
 		// Wrapper classes are available for each primitive data types
-		// There are 8 wrapper classes available: Byte, Short, Integer, Long,Float,
-		// Double, Character, Boolean
+		// There are 8 wrapper classes available: Byte, Short, Integer, Long,Float, Double, Character, Boolean
 		// Wrapper classes are have first letter as uppercase. ex. Integer, Double, Char
-		// To make the primitive data type the object type simply assign the primitive
-		// data type to the Wrapper class variable
+		// To make the primitive data type the object type simply assign the primitive data type to the Wrapper class variable
 		// Ex. Integer iobj=i;
 
 		// Converting primitive data types to object types is called as Autoboxing
 
 		Integer iobj = i; // Using 'Integer' wrapper class, we have assigned the value of primitive
-							// variable (int) i to the variable 'iobj' of type 'Integer' wrapper class. Now
-							// the 'iobj' is integer type object
+							// variable (int) i to the variable 'iobj' of type 'Integer' wrapper class. Now, the 'iobj' is integer type object
 		Double dobj = d;    // dobj is Double type object now
 		Character cobj = c; // cobj is Character type object now
 		Boolean bobj = b;   // bobj is Boolean type object now
