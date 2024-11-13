@@ -75,7 +75,7 @@ public static void main(String[] args) {
 
 }
 */
-
+}
 // Finally is an optional block
 // Finally block will always execute. Whether the exception is handled or not
 // Example, if db connection is opened, we will put it in a try block. If db is not available then catch block will handle the exception. The finally block will close the connection
