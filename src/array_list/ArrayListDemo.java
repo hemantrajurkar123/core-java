@@ -30,11 +30,11 @@ public class ArrayListDemo {
 		// Prints the full arraylist after removing the element
 		System.out.println("ArrayList after removing the element: " + mylist);
 		
-		// Add an element in between the arraylist		
-		mylist.add(2,"Hello"); // adds the value "Hello" at the index 2. The method takes 2 parameters. First is index and second is the value. Rest of the arraylist elements will be shifted to their next index
+		// Insert an element in between the arraylist		
+		mylist.add(2,"Hello"); // Inserts the value "Hello" at the index 2. The method takes 2 parameters. First is index and second is the value. Rest of the arraylist elements will be shifted to their next index
 		System.out.println("ArrayList after adding the element: " + mylist);
 
-		// Modyfying the value at index
+		// Modifying the value at index
 		mylist.set(2, "Java"); // set method takes 2 parameters. first is index, second is value. Value at that index will be set to the value provided in the set method
 		System.out.println("ArrayList after modifying the element: " + mylist);
 

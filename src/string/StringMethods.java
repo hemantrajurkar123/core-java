@@ -63,7 +63,7 @@ public class StringMethods {
 
 		// Example 1:
 		s = "abc@xyz";
-		String a[] = s.split("@");
+		String a[] = s.split("@"); // return type of split method is an array containing the string
 		System.out.println(a[0]);
 		System.out.println(a[1]);
 		// split() method splits the string and returns two strings in the above example

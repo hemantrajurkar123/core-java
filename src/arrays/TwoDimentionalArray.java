@@ -11,7 +11,7 @@ public class TwoDimentionalArray {
 			for(int j=0;j<a[0].length;j++) {
 				System.out.println(a[i][j]);
 				// i represents row and j represents column
-				// a[0].length represents the number of columns present at the 0th row. It is a method to retrive the columns present in the two dimensional array
+				// a[0].length represents the number of columns present at the 0th row. It is a method to retrieve the columns present in the two dimensional array
 				// You can also use a[1].length in the second for loop as the number of columns will remain the same in the two dimensional array for any row
 				// You can also use a[i] if we don't know the number of rows
 			}

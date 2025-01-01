@@ -18,13 +18,14 @@ public class HashSetDemo {
     hs.add(null); //Only 1 null value is allowed
     System.out.println(hs);
     
-    // Removing an element from the HasgSet
+    System.out.println("Hashset size is: "+hs.size());
+    // Removing an element from the HashSet
     hs.remove(null);  //Directly pass the value to remove the element
     System.out.println("HashSet after removing the element :"+hs);
     
-    // Inserting an element in the HashSet is not possible as it does not follow indexing
+    // Inserting an element in the HashSet is not possible as it does not follow indexing (in between insertion is not possible)
     
-    //To access the specific element from the HashSet
+    //To access the specific element from the HashSet using index
     // It is not directly possible. As it does not follow any indexing 
     // But there is a workaround. We can convert HashSet to ArrayList and then we can access the element with the indexing
     

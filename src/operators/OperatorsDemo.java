@@ -41,7 +41,7 @@ public class OperatorsDemo {
 		// Returns the boolean value- true or false
 		// It works between two boolean values
 
-//		x	y	x&&y	x||y	!x	!y
+//		x	     y	    x&&y	x||y	!x	  !y
 //		---------------------------------------------
 //		true	true	true	true	false	false	
 //		true	false	false	true		true
